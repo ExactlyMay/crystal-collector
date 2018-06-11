@@ -4,13 +4,12 @@ Padding: Top/Right is 40px, Right/Left is 10px */
 .wrapper {
     margin: 0 auto;
     max-width: 960px;
-    padding: 40px 10px; 
+    padding: 20px 10px; 
     text-align: center;
 }
 
 .container {
     position: relative;
-    padding-bottom: 40px;
 }
 
 body{
@@ -57,16 +56,17 @@ p {
     padding: 10px;
     border: none;
     font: normal 25px/1 "Fredoka One", Helvetica, sans-serif;
-    color: #000;
+    color: #E8E7F3;
+    text-shadow: -1px 0 #252A85, 0 1px #252A85, 1px 0 #252A85, 0 -1px #252A85;
     text-align: center;
     -o-text-overflow: clip;
     text-overflow: clip;
 }
 
-#number-text, #wins-losses-text {
-    color: #fff;
+#number-text, #wins-losses-text, #score-text {
+    color: #FBD969;
 }
-
+ 
 table{
     width: 100%;
 }
@@ -76,7 +76,7 @@ td{
     margin: auto;
     padding: auto;
     align-content: center;
-    border: solid 8px #000;
+    border: solid 8px #252A85;
 }
 
 
@@ -92,11 +92,11 @@ button {
 }
 
 button:hover {
-    box-shadow: 0 0 5px 5px #fff inset;
+    box-shadow: 0 0 5px 5px #FFFBBA inset;
 }
 
 button:active, :focus { 
-    background-color: #000;
+    background-color: #252A85;
     border: none;
     outline: none;
 
@@ -117,7 +117,7 @@ button:active, :focus {
   }
 }
 
-@-webkit-keyframes fontfix {
+@keyframes fontfix {
     from { opacity: 1; }
     to   { opacity: 1; }
 }
