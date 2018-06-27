@@ -1,1 +1,1 @@
-# crystal-collector
+# crystal-game
